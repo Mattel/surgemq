@@ -21,9 +21,9 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/Sproutling/message"
+	"github.com/Sproutling/surgemq/service"
 	"github.com/stretchr/testify/require"
-	"github.com/surgemq/message"
-	"github.com/surgemq/surgemq/service"
 )
 
 var (

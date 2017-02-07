@@ -17,8 +17,8 @@ package sessions
 import (
 	"testing"
 
+	"github.com/Sproutling/message"
 	"github.com/stretchr/testify/require"
-	"github.com/surgemq/message"
 )
 
 func TestAckQueueOutOfOrder(t *testing.T) {

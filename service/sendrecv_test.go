@@ -19,8 +19,8 @@ import (
 	"io"
 	"testing"
 
+	"github.com/Sproutling/message"
 	"github.com/stretchr/testify/require"
-	"github.com/surgemq/message"
 )
 
 func TestReadMessageSuccess(t *testing.T) {
